@@ -1,4 +1,8 @@
 # useful_commands
+# Rename files with sed
+```bash
+find . -type f -name '*.bam' | while read FILE ; do     newfile="$(echo ${FILE} |sed -e 's/xxx/yyy/g')" ;     mv "${FILE}" "${newfile}" ; done
+```
 
 # touch all files
 ```bash
