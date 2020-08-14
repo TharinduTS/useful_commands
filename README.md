@@ -22,3 +22,8 @@ while IFS= read -r line <&3; do
 
 done 3<all_files_list
 ```
+# list file names seperated by a space
+```bash
+ls ../all_bam_files/ | tr "\n" " "
+```
+
