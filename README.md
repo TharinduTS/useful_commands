@@ -26,4 +26,12 @@ done 3<all_files_list
 ```bash
 ls ../all_bam_files/ | tr "\n" " "
 ```
-
+# List into comma seperated values
+```text
+Open Word
+"Paste special" as text only
+Select the data in Word (the one that you need to convert to text separated with ,), press Ctrl-H (Find & replace)
+In "Find what" box type ^p
+In "Replace with" box type ,
+Select "Replace all"
+```
