@@ -18,8 +18,6 @@ while IFS= read -r line <&3; do
 
   touch "$line"
 
-  sleep 1
-
 done 3<all_files_list
 ```
 # list file names seperated by a space
