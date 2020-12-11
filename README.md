@@ -41,3 +41,8 @@ ${MYVAR##pattern}    # delete longest match of pattern from the beginning
 ${MYVAR%pattern}     # delete shortest match of pattern from the end
 ${MYVAR%%pattern}    # delete longest match of pattern from the end
 ```
+
+# Check chromosomes in bam files
+```bash
+samtools idxstats JM_no_label1_Draken_CCACGT_cuttrim_sorted_final_s_only.bam | grep 'chr'
+```
