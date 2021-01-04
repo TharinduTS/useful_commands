@@ -46,3 +46,7 @@ ${MYVAR%%pattern}    # delete longest match of pattern from the end
 ```bash
 samtools idxstats JM_no_label1_Draken_CCACGT_cuttrim_sorted_final_s_only.bam | grep 'chr'
 ```
+# copy only selected files from all the sub directories keeping directory structure
+```bash
+find directory_to_look -name '*.wildcard_here' | cpio -pdm output_folder_here
+```
