@@ -52,3 +52,6 @@ find directory_to_look -name '*.wildcard_here' | cpio -pdm output_folder_here
 ```
 # R wildcards can be found here;
 https://www.r-studio.com/Unformat_Help/regularexpressions.html
+
+# R scripts give unexpected errors??
+ Try updating all packages
