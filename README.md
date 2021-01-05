@@ -50,3 +50,5 @@ samtools idxstats JM_no_label1_Draken_CCACGT_cuttrim_sorted_final_s_only.bam | g
 ```bash
 find directory_to_look -name '*.wildcard_here' | cpio -pdm output_folder_here
 ```
+# R wildcards can be found here;
+https://www.r-studio.com/Unformat_Help/regularexpressions.html
