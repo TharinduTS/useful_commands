@@ -47,7 +47,7 @@ do this after running the first script with string1 to run the same script with 
 ```
 ^string1^string2^
 ```
-if you want o change all instances
+if you want to change all instances
 ```
 !!:gs/string1/string2/
 ```
