@@ -41,7 +41,17 @@ ${MYVAR##pattern}    # delete longest match of pattern from the beginning
 ${MYVAR%pattern}     # delete shortest match of pattern from the end
 ${MYVAR%%pattern}    # delete longest match of pattern from the end
 ```
+# execute a command substituting a word
 
+do this after running the first script with string1 to run the same script with string2 - This only replaces the first instance of string1
+```
+^string1^string2^
+```
+if you want o change all instances
+```
+!!:gs/string1/string2/
+```
+Quick substitution. Repeat the last command, replacing string1 with string2
 # Check chromosomes in bam files
 ```bash
 samtools idxstats JM_no_label1_Draken_CCACGT_cuttrim_sorted_final_s_only.bam | grep 'chr'
