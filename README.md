@@ -65,3 +65,17 @@ https://www.r-studio.com/Unformat_Help/regularexpressions.html
 
 # R scripts give unexpected errors??
  Try updating all packages
+ 
+# Installing R packages on computecanada
+
+first load this module
+```bash
+module load gcc/9.3.0 r/4.1.0
+```
+open r
+```
+R
+```
+use install.packages('package_name')
+```
+and then follow steps to create a personal library
