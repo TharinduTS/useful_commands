@@ -90,3 +90,10 @@ source ~/ENV/bin/activate
 pip install --no-index --upgrade pip
 pip install numpy --no-index
 ```
+Then work as you want and,
+
+when you want to exit the environment,
+
+```bash
+(ENV) [name@server ~] deactivate
+```
