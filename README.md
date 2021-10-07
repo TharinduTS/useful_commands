@@ -79,3 +79,14 @@ R
 use install.packages('package_name')
 ```
 and then follow steps to create a personal library
+
+# python
+If you want to use python and cannot use modules try following creating virtual environment
+this example is with numpy
+```bash
+module load python/3.8.2
+virtualenv --no-download ~/ENV
+source ~/ENV/bin/activate
+pip install --no-index --upgrade pip
+pip install numpy --no-index
+```
