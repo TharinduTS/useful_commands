@@ -6,7 +6,7 @@ find . -type f -name '*.bam' | while read FILE ; do     newfile="$(echo ${FILE} 
 
 # touch all files
 ```bash
-find . -type d > all_files_list
+find . > all_files_list
 
  
 
