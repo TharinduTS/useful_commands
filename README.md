@@ -97,3 +97,6 @@ when you want to exit the environment,
 ```bash
 (ENV) [name@server ~] deactivate
 ```
+# qgis
+
+Always use google sheets to add cordinate files. Mac handles csv s and tsvs differently and qgis cannot understand that
