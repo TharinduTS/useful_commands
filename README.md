@@ -20,6 +20,12 @@ while IFS= read -r line <&3; do
 
 done 3<all_files_list
 ```
+Use sed to find and replace
+
+all occurences
+```
+sed -e 's:XXX:YYY:g'
+```
 # list file names seperated by a space
 ```bash
 ls ../all_bam_files/ | tr "\n" " "
