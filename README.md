@@ -72,6 +72,10 @@ https://www.r-studio.com/Unformat_Help/regularexpressions.html
 # R scripts give unexpected errors??
  Try updating all packages
  
+# set current path as wd
+library("rstudioapi") 
+setwd(dirname(getActiveDocumentContext()$path))
+
 # Installing R packages on computecanada
 
 first load this module
