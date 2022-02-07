@@ -73,8 +73,10 @@ https://www.r-studio.com/Unformat_Help/regularexpressions.html
  Try updating all packages
  
 # set current path as wd
+```
 library("rstudioapi") 
 setwd(dirname(getActiveDocumentContext()$path))
+```
 
 # Installing R packages on computecanada
 
