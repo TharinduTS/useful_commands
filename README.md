@@ -39,6 +39,10 @@ In "Find what" box type ^p
 In "Replace with" box type ,
 Select "Replace all"
 ```
+# R list to comma seperated
+```
+paste(noquote(shortened_sample_list), collapse=",")
+```
 
 # extract parts of variables in bash
 ```bash
