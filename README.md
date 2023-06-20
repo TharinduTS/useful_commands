@@ -1,4 +1,10 @@
 # useful_commands
+
+# Copy files with rsync
+```bash
+rsync -axvH --no-g --no-p ben@graham.computecanada.ca:/home/ben/projects/rrg-ben/ben/2022_GBS_lotsofxennies/individual_gvcfs_by_species/2017_laevis/* .
+```
+
 # Rename files with sed
 ```bash
 find . -type f -name '*.bam' | while read FILE ; do     newfile="$(echo ${FILE} |sed -e 's/xxx/yyy/g')" ;     mv "${FILE}" "${newfile}" ; done
