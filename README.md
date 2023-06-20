@@ -2,7 +2,7 @@
 
 # Copy files with rsync
 ```bash
-rsync -axvH --no-g --no-p ben@graham.computecanada.ca:/home/ben/projects/rrg-ben/ben/2022_GBS_lotsofxennies/individual_gvcfs_by_species/2017_laevis/* .
+rsync -axvH --no-g --no-p ben@graham.computecanada.ca:/home/ben/projects/rrg-ben/ben/2022_GBS_lotsofxennies/individual_gvcfs_by_species/2017_laevis/ .
 ```
 
 # Rename files with sed
