@@ -3,6 +3,11 @@
 # Copy files with rsync
 ```bash
 rsync -axvH --no-g --no-p premacht@graham.computecanada.ca:/scratch/premacht/python_projects_2023/hetero_comparison_4_pops/combined_summaries .
+```
+one drive directory on windows ubuntu
+```
+cd /mnt/c/Users/thari/OneDrive\ -\ McMaster\ University/for_lab_and_research/Tharindu_on_Mac/lab
+```
 
 # Rename files with sed
 ```bash
