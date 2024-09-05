@@ -6,7 +6,7 @@ rsync -axvH --no-g --no-p premacht@graham.computecanada.ca:/scratch/premacht/pyt
 ```
 one drive directory on windows ubuntu
 ```
-cd /mnt/c/Users/thari/OneDrive\ -\ McMaster\ University/for_lab_and_research/Tharindu_on_Mac/lab
+cd /mnt/c/Users/thari/'OneDrive - McMaster University'/for_lab_and_research/Tharindu_on_Mac/lab
 ```
 
 # Rename files with sed
