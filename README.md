@@ -13,7 +13,10 @@ cd /mnt/c/Users/thari/'OneDrive - McMaster University'/for_lab_and_research/Thar
 ```bash
 find . -type f -name '*.bam' | while read FILE ; do     newfile="$(echo ${FILE} |sed -e 's/xxx/yyy/g')" ;     mv "${FILE}" "${newfile}" ; done
 ```
-
+# change file contents in many files
+```
+for i in {2..5};do sed -i "s/0.0001/0.00001/g" cal_admix${i}.sh;done
+```
 # touch all files
 ```bash
 find . > all_files_list
