@@ -17,6 +17,11 @@ find . -type f -name '*.bam' | while read FILE ; do     newfile="$(echo ${FILE} 
 ```
 for i in {2..5};do sed -i "s/0.0001/0.00001/g" cal_admix${i}.sh;done
 ```
+or copy files changing names and changing content with something like
+```
+for i in {2..5};do sed "s/0.0001/0.00001/g" cal_admix${i}.sh>cal_admix${i}.sh_new;done
+```
+
 # touch all files
 ```bash
 find . > all_files_list
