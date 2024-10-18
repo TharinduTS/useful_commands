@@ -21,6 +21,10 @@ or copy files changing names and changing content with something like
 ```
 for i in {2..5};do sed "s/0.0001/0.00001/g" cal_admix${i}.sh>cal_admix${i}.sh_new;done
 ```
+to do that in different directories
+```
+for i in {1..20};do cd ${i}mb_vcfs; sed -i "s/48:00:00/100:00:00/g" convert_vcf_and_align_fasta.sh;cd .. ;done
+```
 
 # touch all files
 ```bash
