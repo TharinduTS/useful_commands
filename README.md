@@ -25,6 +25,10 @@ to do that in different directories
 ```
 for i in {1..20};do cd ${i}mb_vcfs; sed -i "s/48:00:00/100:00:00/g" convert_vcf_and_align_fasta.sh;cd .. ;done
 ```
+submit those jobs
+```
+for i in {1..20};do cd ${i}mb_vcfs; sbatch convert_vcf_and_align_fasta.sh;cd .. ;done
+```
 
 # touch all files
 ```bash
