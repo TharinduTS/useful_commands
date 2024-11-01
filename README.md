@@ -29,6 +29,14 @@ submit those jobs
 ```
 for i in {1..20};do cd ${i}mb_vcfs; sbatch convert_vcf_and_align_fasta.sh;cd .. ;done
 ```
+include variables in sed
+```
+for i in {1..20}; do mkdir region${i}; mv ${i}mb_vcfs_alignment.fasta region${i}; mv compare_Fasta${i}.sh region${i ;done
+```
+include special characters
+```
+for i in {1..20}; do sed -i "s/testing_whole_chr7\/to_download/testing_whole_chr7\/to_download\/region${i}/g" region${i}/compare_Fasta${i}.sh;done![image](https://github.com/user-attachments/assets/bb7963d6-ea09-4980-b87d-87182aee217a)
+```
 
 # touch all files
 ```bash
